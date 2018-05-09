@@ -16,7 +16,7 @@ button{
     width: 20%;
     margin: 0 auto;
     vertical-align: middle;
-    margin-top: 75px;
+    margin-top: 33%;
     background-color: teal;
 }
 .bigcontainer{
@@ -24,9 +24,9 @@ button{
     flex-wrap: wrap;
     background-color: rgb(172, 167, 167);
     margin: 0 auto;
-    width: 48%;
-
-
+    width: 60%;
+    justify-content: center;
+    justify-items: center;
 }
 .available{
     display: flex;
@@ -38,8 +38,8 @@ button{
     margin: 10px;
     border-radius: 50%;
     font-size: 25px;
-    width: 178px;
-    height: 178px;
+    width: 25%;
+    height: 25%;
 }
 .available:hover{
     background-color: tomato;
@@ -55,11 +55,12 @@ button{
     margin: 10px;
     border-radius: 50%;
     font-size: 25px;
-    width: 172px;
-    height: 172px;
+    width: 25%;
+    height: 25%;
     border-width: 3px;
     border-color: green;
     border-style: solid;
+    cursor: not-allowed;
 }
 .form{
     width:250px;
@@ -83,4 +84,21 @@ p{
     width: 90%;
     background-color: green;
     margin-top: 10px;
+}
+.cancelbutton{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+}
+.page{
+    display: flex;
+    display: inline;
+}
+
+.tableone{
+  background-color: white;
+  opacity: 50%;
+  font-size: 8px;
 }
